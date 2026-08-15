@@ -1,0 +1,17 @@
+{
+  "name": "falix-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot to start and check status of a Falix-hosted Minecraft server",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "express": "^4.18.2"
+  }
+}
